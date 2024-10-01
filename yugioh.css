@@ -1,0 +1,64 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: lightblue;
+}
+
+body{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(139, 142, 144);
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding: auto;
+    padding-left: 30px;
+    margin: auto;
+}
+
+section{
+    padding-left: 50px;
+    color: lightblue;
+}
+
+footer{
+    width: 10%;
+    margin: auto;
+    text-align: left;
+}
+
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: 5px;
+}
+
+#nav-gauche{
+    left: 5px;
+}
+
+.elements{
+    display: flex;
+    transition: 0.5s linear;
+}
+
+.element{
+    position: relative;
+    flex: 1 0 100%;
+}
+
+.element > img{
+    width: 100%
+}
